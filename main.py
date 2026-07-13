@@ -9,6 +9,6 @@ class ValidateRequest(BaseModel):
     hwid: str
 
 
-@app.post("/api/auth/validate")
+@app.post("/auth/validate")
 def validate(request: ValidateRequest):
     return {}
